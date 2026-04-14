@@ -1,0 +1,110 @@
+body {
+    margin: auto;
+    font-family: 'Arial';
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: deepskyblue;
+    color: white;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    gap: 10px;
+    background: grey;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+section h2 {
+    text-align: center;
+}
+section{
+    padding: 40px;
+    margin: 20px;
+    background: lightgrey;
+    border-radius: 10px;
+}
+
+section:first-of-type {
+text-align:center;
+}
+
+section img {
+    width: 200px;
+}
+
+.Servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Servicios article {
+flex: 1 1 30%;
+border: 1px solid lightgrey;
+padding: 15px;
+background: white;
+border-radius: 10px;
+}
+
+.Servicios img{
+    width:100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.EquipoProfesionales article{
+width: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+
+.EquipoProfesionales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.EquipoProfesionales img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background:darkslategrey;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
